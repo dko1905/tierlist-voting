@@ -1,0 +1,53 @@
+# Build
+/dist
+/lib
+/lib-types
+/server
+
+# Development
+node_modules
+.env
+*.local
+
+# Cache
+.cache
+.mf
+.rollup.cache
+tsconfig.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/launch.json
+!.vscode/*.code-snippets
+
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Yarn
+.yarn/*
+!.yarn/releases
+politicians/1.png
+politicians/2.png
+politicians/3.png
+politicians/4.png
+politicians/5.png
+politicians/6.png
+politicians/7.png
+politicians/8.png
+politicians/9.png
+politicians/10.png
+politicians/11.png
