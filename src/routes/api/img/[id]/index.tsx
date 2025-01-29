@@ -35,7 +35,6 @@ export const onGet: RequestHandler = async ({
     f = await readFile("./politicians/" + id + ".png"); // !!! HIGHLY DANGER !!!
     await writer.write(f);
     await writer.close();
-    // await ws.close();
   } finally {
     // empty
   }
